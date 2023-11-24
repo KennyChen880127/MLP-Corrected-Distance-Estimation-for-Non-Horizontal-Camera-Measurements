@@ -11,21 +11,6 @@ When the camera is installed non-horizontally relative to the target object, iss
 
 ## Features
 Through the use of a for loop, we can obtain each key point of the human body's pose one by one. We calculate the distances between each pair of coordinates, and use statistical methods like [Quartile](https://en.wikipedia.org/wiki/Quartile) to identify and handle outlier values. Finally, for the coordinates corresponding to these outlier values, we perform calculations to determine the appropriate adjustments. This approach helps address the issue of key points extending beyond the body's boundaries and enhances the accuracy of pose estimation.
-
-## Steps to run Code
-### Create Virtual Environment
-* Pip install the ultralytics package including all [requirements](<https://github.com/ultralytics/ultralytics/blob/main/requirements.txt>) in a [Python>=3.8](https://www.python.org/) environment with [PyTorch>=1.8](https://pytorch.org/get-started/previous-versions/).
-
-        pip install -r requirements.txt
-* For alternative installation methods including [Conda](https://anaconda.org/conda-forge/ultralytics), [Docker](https://hub.docker.com/r/ultralytics/ultralytics), and Git, please refer to the [Quickstart Guide](https://docs.ultralytics.com/quickstart/).
-
-        pip install ultralytics
-* Clone the repository
-  
-        git clone https://github.com/KennyChen880127/YOLOv8-Tank-Tracking.git
-* Goto cloned folder
-  
-        cd MLP-Corrected-Distance-Estimation-for-Non-Horizontal-Camera-Measurements
   
 ### Training
 First, you need to choose a simple image as a calibration reference. You can refer to the [training process of YOLOv8](https://docs.ultralytics.com/modes/train/), and you also have the option to use pre-trained YOLOv8 weights from one of the 80 classes in the COCO dataset, selecting a category with a relatively large area.
