@@ -3,7 +3,7 @@ When the camera is installed non-horizontally relative to the target object, iss
 
 | GUI Design| Scene Illustration | 
 |---|---|
-| ![3](https://github.com/KennyChen880127/MLP-Corrected-Distance-Estimation-for-Non-Horizontal-Camera-Measurements-Code/assets/99500847/7fcd2034-47a6-4b0d-bdd0-cb6a7223e89d) | ![下載](https://github.com/KennyChen880127/MLP-Corrected-Distance-Estimation-for-Non-Horizontal-Camera-Measurements-Code/assets/99500847/3702723f-3c61-4431-b21d-89964f73f14b) |
+| ![image](https://github.com/KennyChen880127/MLP-Corrected-Distance-Estimation-for-Non-Horizontal-Camera-Measurements/blob/main/example_1.png) | ![image](https://github.com/KennyChen880127/MLP-Corrected-Distance-Estimation-for-Non-Horizontal-Camera-Measurements/blob/main/example_2.png) |
 
 ## Multilayer Perceptron (MLP)
 
