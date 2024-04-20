@@ -1,4 +1,11 @@
-# MLP-Corrected-Distance-Estimation-for-Non-Horizontal-Camera-Measurements
+<div align="center">
+<h1>
+<b>
+MLP-Corrected-Distance-Estimation-for-Non-Horizontal-Camera-Measurements
+</b>
+</h1>
+</div>
+
 When the camera is installed non-horizontally relative to the target object, issues such as angle variations and inconsistent distance measurements for multiple reference points on the same object make it challenging to establish a uniform safety distance. Therefore, in this experiment, a GUI is developed using [PyQt5](https://pypi.org/project/PyQt5/). The [Intel RealSense D435i](https://www.intelrealsense.com/depth-camera-d435i/) is employed to capture both images and distance measurements. Once the camera is securely positioned, users can create a simple dataset by capturing images and setting the current vertical distance from the camera. By moving left and right to capture data, the coordinates (X, Y) of each point within the entire bounding box, along with the Z coordinate captured by the camera, are used as inputs. The output is the horizontal distance from the camera.
 
 | GUI Design| Scene Illustration | 
