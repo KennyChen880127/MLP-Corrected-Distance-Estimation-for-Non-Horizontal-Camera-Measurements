@@ -15,9 +15,6 @@ When the camera is installed non-horizontally relative to the target object, iss
 ## Multilayer Perceptron (MLP)
 
 [Multilayer Perceptron (MLP)](https://en.wikipedia.org/wiki/Multilayer_perceptron) is a type of artificial neural network designed for supervised learning. It consists of multiple layers of nodes, or neurons, organized in a feedforward manner. The network is composed of an input layer, one or more hidden layers, and an output layer.In MLP, each connection between nodes is assigned a weight, and each node within the network applies an activation function to the weighted sum of its inputs. The layers between the input and output are known as hidden layers, and they contribute to the network's ability to learn complex patterns and representations.MLP is versatile and has been successfully applied to various tasks, including classification, regression, and pattern recognition. Its flexibility and ability to capture non-linear relationships make it a popular choice for solving complex problems in machine learning and artificial intelligence.
-
-## Features
-Through the use of a for loop, we can obtain each key point of the human body's pose one by one. We calculate the distances between each pair of coordinates, and use statistical methods like [Quartile](https://en.wikipedia.org/wiki/Quartile) to identify and handle outlier values. Finally, for the coordinates corresponding to these outlier values, we perform calculations to determine the appropriate adjustments. This approach helps address the issue of key points extending beyond the body's boundaries and enhances the accuracy of pose estimation.
   
 ### Training
 First, you need to choose a simple image as a calibration reference. You can refer to the [training process of YOLOv8](https://docs.ultralytics.com/modes/train/), and you also have the option to use pre-trained YOLOv8 weights from one of the 80 classes in the COCO dataset, selecting a category with a relatively large area.
